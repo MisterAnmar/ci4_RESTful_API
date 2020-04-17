@@ -8,7 +8,8 @@ The simplest possible Codeigniter4 RESTful API
 2. Keep in mind that this prototype does not implement any validation or security consideration
 3. Default Codeigniter4 CodeIgniter\RESTful\ResourceController handles return types and Model loading
 4. Browser by default do not support JSON therefor the ResourceController will automatically send it as XML unless you specify otherwise
-5. This code not thoughtfully tested.
+5. This API does not handle views. If interested in Pure API not RESTful then check out ci4 [UserGuide](https://codeigniter4.github.io/userguide/outgoing/api_responses.html)
+6. This code not thoughtfully tested.
 
 ### Installation 
 
