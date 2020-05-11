@@ -1,7 +1,6 @@
 # ci4_RESTful_API
 
-The simplest possible Codeigniter4 RESTful API
-
+The simplest possible Codeigniter4 RESTful API based on Representational State Transfer (REST) which is an architectural style for distributed applications, first described by Roy Fielding in his 2000 PhD dissertation, Architectural Styles and the Design of Network-based Software Architectures. 
 
 ### Highlights
 1. This is the simplest form of RESTful API using CodeIGNITER4
