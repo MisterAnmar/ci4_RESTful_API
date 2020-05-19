@@ -5,6 +5,7 @@ use CodeIgniter\RESTful\ResourceController;
 class News extends ResourceController
 {
     protected $modelName = 'App\Models\NewsModel';
+    // There used to be a bug in version 4.0.2 now fixed in v4.0.3. No issues in json return
     protected $format    = 'json';
     // Handles GET Request (news)
     public function index()
