@@ -4,6 +4,7 @@ use CodeIgniter\Model;
 
 class NewsModel extends Model
 {
+        // Table name
         protected $table      = 'news';
         protected $primaryKey = 'id';
 
