@@ -33,5 +33,21 @@ CREATE TABLE IF NOT EXISTS `news` (
 5. Add  `$routes->resource('api/news', ['controller' =>'News']);` to Config/Route.php
 6. You can access the API using yourDomain/api/news
 
+`$routes->resource('api/news', ['controller' =>'News']);` 
+
+ Means:
+
+```
+$routes->get('api/news/new',             'News::new');
+$routes->post('api/news',                'News::create');
+$routes->get('api/news',                 'News::index');
+$routes->get('api/news/(:segment)',      'News::show/$1');
+$routes->get('api/news/(:segment)/edit', 'News::edit/$1');
+$routes->put('api/news/(:segment)',      'News::update/$1');
+$routes->patch('api/news/(:segment)',    'News::update/$1');
+$routes->delete('api/news/(:segment)',   'News::delete/$1');
+```
+
+
 ### Notes
 - Please if you have any comment or suggestion please do send me a message.
